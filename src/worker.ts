@@ -3,7 +3,7 @@ async function theIOBoundOperationReturningAPromise() {
 	// Sleep for 100ms
 	// await new Promise(r => setTimeout(r, 100));
 	// do async I/O
-	await fetch("https://developers.cloudflare.com");
+	await fetch("https://example.com/");
 	return;
   }
 
